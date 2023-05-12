@@ -1,0 +1,17 @@
+{
+    "name": "Página Progresiva yei",
+    "short_name": "just yei",
+    "theme_color": "#18BABF",
+    "background_color": "#18BABF",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "./",
+    "start_url": "./",
+    "icons": [
+        {
+            "src": "./imagen_progresiva.png",
+            "type": "image/png",
+            "sizes": "2240x2240"
+        }
+    ]
+}

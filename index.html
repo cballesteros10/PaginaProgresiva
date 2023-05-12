@@ -1,0 +1,16 @@
+<html>
+    <head> 
+        <title> Soy una PWA </title>
+        <link rel="manifest" href="./manifest.json">
+        <script>
+            if ("serviceWorker" in navigator) {
+              navigator.serviceWorker.register("sw.js");
+            }
+          </script>
+    </head>
+
+    <body>         
+            <p> Soy una PWA </p>
+            <script src="script.js"> </script>
+    </body>
+</html>
